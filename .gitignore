@@ -332,3 +332,8 @@ Session.vim
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
